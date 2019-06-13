@@ -4,10 +4,10 @@ import tweepy
 import re
 
 # Variables that contains the user credentials to access Twitter API 
-ACCESS_TOKEN = '1282452336-cMfcPS7Hinj4ZFnVF8VgzwvUDrBwNb9vRXNrKjb'
-ACCESS_SECRET = 'H4eagnPS7ODUo79EAAwJSI1vYzuq3eFmNNFVDDBSw17Ev'
-CONSUMER_KEY = 'wzyZzobWXCToOvcrTIAMi3xn7'
-CONSUMER_SECRET = 'pMYE70fQrcYeOuGwuWawRm5IdNaRSTORL9ZEUWcIIoCtDfSVOJ'
+ACCESS_TOKEN = 'ACCESS_TOKEN_HERE'
+ACCESS_SECRET = 'ACCESS_SECRET_HERE'
+CONSUMER_KEY = 'CONSUMER_KEY_HERE'
+CONSUMER_SECRET = 'CONSUMER_SECRET_HERE'
 
 # Setup tweepy to authenticate with Twitter credentials:
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
